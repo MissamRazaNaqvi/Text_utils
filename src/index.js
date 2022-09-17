@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import reportWebVitals from './reportWebVitals';
 import Header from "./Component/Header";
 import TextBox from './Component/Textbox';
-import { useState } from 'react'
+import { useState } from 'react';
 import Footer from './Component/Footer';
 
 
@@ -40,7 +40,7 @@ export default function App() {
 
      <>
      <Header mode={mode} toggleMode={toggleMode} title={navBtn} />
-     <TextBox mode={mode} />
+     <TextBox mode={mode} />  
      <Footer/>
      </>
   );
